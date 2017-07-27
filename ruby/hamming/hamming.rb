@@ -7,6 +7,8 @@ class Hamming
 		end 
 	end 
 
+	
+
 
 
 
