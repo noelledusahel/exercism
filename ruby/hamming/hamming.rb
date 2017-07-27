@@ -1,10 +1,14 @@
 class Hamming 
 
+	def self.convert(str)
+		str.chars
+	end 
+
 	def self.compute(first_strand, second_strand)
 		count = 0
 
-		p first_strand = first_strand.chars
-		p second_strand = second_strand.chars
+		p first_strand = convert(first_strand)
+		p second_strand = convert(second_strand)
 
 		if first_strand == second_strand
 			count = 0	 
